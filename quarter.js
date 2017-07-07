@@ -1,5 +1,5 @@
 function Quarter (name) {
-    this._quarter = name
+    this._name = name
 
 
 }
@@ -7,6 +7,6 @@ function Quarter (name) {
 Quarter.prototype = {
 
     getName: function (){
-        return this._quarter
+        return this._name
     }
 }

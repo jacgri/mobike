@@ -1,5 +1,5 @@
 function Bike (name) {
-    this._bike = name
+    this._name = name
 
 
 }
@@ -7,6 +7,10 @@ function Bike (name) {
 Bike.prototype = {
 
     getName: function (){
-        return this._bike
+        return this._name
+    },
+
+    addQuarter: function(){
+        this._name.Quarter._name
     }
 }
