@@ -1,16 +1,15 @@
-function Bike (name) {
+function Bike (name, quarter) {
     this._name = name
-
-
+    this._quarter = quarter
 }
 
 Bike.prototype = {
 
     getName: function (){
-        return this._name
+        return "The " +  this._name + " is in the " + this._quarter
     },
 
-    addQuarter: function(){
-        this._name.Quarter._name
-    }
+    //changeQuarter: function(){
+      //  this._name.Quarter._name
+    //}
 }
