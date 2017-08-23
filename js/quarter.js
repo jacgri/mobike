@@ -7,6 +7,6 @@ function Quarter (name) {
 Quarter.prototype = {
 
     getName: function (){
-        return this._name
+       return this._name
     }
 }
